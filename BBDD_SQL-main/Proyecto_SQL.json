@@ -1,0 +1,2058 @@
+{
+"escuela":[
+ {
+  "id_campus": "1",
+  "campus": "Madrid"
+ },
+ {
+  "id_campus": "0",
+  "campus": "Valencia"
+ }
+],
+"vertical":[
+ {
+  "id_ver": "0",
+  "vertical": "DS"
+ },
+ {
+  "id_ver": "1",
+  "vertical": "FS"
+ }
+],
+"curso":[
+ {
+  "id_curso": "0",
+  "promocion": "Septiembre",
+  "fecha": "09\/18\/2023",
+  "id_campus": 1
+ },
+ {
+  "id_curso": "1",
+  "promocion": "Febrero",
+  "fecha": "02\/12\/2024",
+  "id_campus": 1
+ },
+ {
+  "id_curso": "2",
+  "promocion": "Febrero",
+  "fecha": "02\/12\/2024",
+  "id_campus": 0
+ },
+ {
+  "id_curso": "3",
+  "promocion": "Septiembre",
+  "fecha": "09\/18\/2023",
+  "id_campus": 0
+ }
+],
+"proyecto":[
+ {
+  "id_proyecto": "0",
+  "nombre_proyecto": "Proyecto_HLF",
+  "id_vertical": 0
+ },
+ {
+  "id_proyecto": "1",
+  "nombre_proyecto": "Proyecto_EDA",
+  "id_vertical": 0
+ },
+ {
+  "id_proyecto": "2",
+  "nombre_proyecto": "Proyecto_BBDD",
+  "id_vertical": 0
+ },
+ {
+  "id_proyecto": "3",
+  "nombre_proyecto": "Proyecto_ML",
+  "id_vertical": 0
+ },
+ {
+  "id_proyecto": "4",
+  "nombre_proyecto": "Proyecto_Deployment",
+  "id_vertical": 0
+ },
+ {
+  "id_proyecto": "5",
+  "nombre_proyecto": "Proyecto_React",
+  "id_vertical": 1
+ },
+ {
+  "id_proyecto": "6",
+  "nombre_proyecto": "Proyecto_Backend",
+  "id_vertical": 1
+ },
+ {
+  "id_proyecto": "7",
+  "nombre_proyecto": "Proyecto_FrontEnd",
+  "id_vertical": 1
+ },
+ {
+  "id_proyecto": "8",
+  "nombre_proyecto": "Proyecto_WebDev",
+  "id_vertical": 1
+ },
+ {
+  "id_proyecto": "9",
+  "nombre_proyecto": "Proyecto_FullSatck",
+  "id_vertical": 1
+ }
+],
+"profesor":[
+ {
+  "id_profesor": "0",
+  "nombre": "Noa Yáñez",
+  "rol": "TA",
+  "id_curso": 0,
+  "id_vertical": 0,
+  "modalidad": "Presencial"
+ },
+ {
+  "id_profesor": "1",
+  "nombre": "Saturnina Benitez",
+  "rol": "TA",
+  "id_curso": 0,
+  "id_vertical": 0,
+  "modalidad": "Presencial"
+ },
+ {
+  "id_profesor": "2",
+  "nombre": "Anna Feliu",
+  "rol": "TA",
+  "id_curso": 0,
+  "id_vertical": 1,
+  "modalidad": "Presencial"
+ },
+ {
+  "id_profesor": "3",
+  "nombre": "Rosalva Ayuso",
+  "rol": "TA",
+  "id_curso": 3,
+  "id_vertical": 1,
+  "modalidad": "Presencial"
+ },
+ {
+  "id_profesor": "4",
+  "nombre": "Ana Sofía Ferrer",
+  "rol": "TA",
+  "id_curso": 2,
+  "id_vertical": 1,
+  "modalidad": "Presencial"
+ },
+ {
+  "id_profesor": "5",
+  "nombre": "Angélica Corral",
+  "rol": "TA",
+  "id_curso": 1,
+  "id_vertical": 1,
+  "modalidad": "Presencial"
+ },
+ {
+  "id_profesor": "6",
+  "nombre": "Ariel Lledó",
+  "rol": "TA",
+  "id_curso": 0,
+  "id_vertical": 0,
+  "modalidad": "Presencial"
+ },
+ {
+  "id_profesor": "7",
+  "nombre": "Mario Prats",
+  "rol": "LI",
+  "id_curso": 2,
+  "id_vertical": 1,
+  "modalidad": "Online"
+ },
+ {
+  "id_profesor": "8",
+  "nombre": "Luis Ángel Suárez",
+  "rol": "LI",
+  "id_curso": 0,
+  "id_vertical": 1,
+  "modalidad": "Online"
+ },
+ {
+  "id_profesor": "9",
+  "nombre": "María Dolores Diaz",
+  "rol": "LI",
+  "id_curso": 0,
+  "id_vertical": 0,
+  "modalidad": "Online"
+ }
+],
+"alumnos":[
+ {
+  "id_alumnos": "23",
+  "nombre": "Isabel Ibáñez",
+  "correo": "Isabel_Ibáñez@gmail.com",
+  "id_curso": 1
+ },
+ {
+  "id_alumnos": "24",
+  "nombre": "Desiderio Jordá",
+  "correo": "Desiderio_Jordá@gmail.com",
+  "id_curso": 1
+ },
+ {
+  "id_alumnos": "25",
+  "nombre": "Rosalina Llanos",
+  "correo": "Rosalina_Llanos@gmail.com",
+  "id_curso": 1
+ },
+ {
+  "id_alumnos": "26",
+  "nombre": "Amor Larrañaga",
+  "correo": "Amor_Larrañaga@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "27",
+  "nombre": "Teodoro Alberola",
+  "correo": "Teodoro_Alberola@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "28",
+  "nombre": "Cleto Plana",
+  "correo": "Cleto_Plana@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "29",
+  "nombre": "Aitana Sebastián",
+  "correo": "Aitana_Sebastián@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "30",
+  "nombre": "Dolores Valbuena",
+  "correo": "Dolores_Valbuena@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "31",
+  "nombre": "Julie Ferrer",
+  "correo": "Julie_Ferrer@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "32",
+  "nombre": "Mireia Cabañas",
+  "correo": "Mireia_Cabañas@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "33",
+  "nombre": "Flavia Amador",
+  "correo": "Flavia_Amador@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "34",
+  "nombre": "Albino Macias",
+  "correo": "Albino_Macias@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "35",
+  "nombre": "Ester Sánchez",
+  "correo": "Ester_Sánchez@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "0",
+  "nombre": "Jafet Casals",
+  "correo": "Jafet_Casals@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "1",
+  "nombre": "Jorge Manzanares",
+  "correo": "Jorge_Manzanares@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "2",
+  "nombre": "Onofre Adadia",
+  "correo": "Onofre_Adadia@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "3",
+  "nombre": "Merche Prada",
+  "correo": "Merche_Prada@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "4",
+  "nombre": "Pilar Abella",
+  "correo": "Pilar_Abella@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "5",
+  "nombre": "Leoncio Tena",
+  "correo": "Leoncio_Tena@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "6",
+  "nombre": "Odalys Torrijos",
+  "correo": "Odalys_Torrijos@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "7",
+  "nombre": "Eduardo Caparrós",
+  "correo": "Eduardo_Caparrós@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "8",
+  "nombre": "Ignacio Goicoechea",
+  "correo": "Ignacio_Goicoechea@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "9",
+  "nombre": "Clementina Santos",
+  "correo": "Clementina_Santos@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "10",
+  "nombre": "Daniela Falcó",
+  "correo": "Daniela_Falcó@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "11",
+  "nombre": "Abraham Vélez",
+  "correo": "Abraham_Vélez@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "12",
+  "nombre": "Maximiliano Menéndez",
+  "correo": "Maximiliano_Menéndez@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "13",
+  "nombre": "Anita Heredia",
+  "correo": "Anita_Heredia@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "15",
+  "nombre": "Eli Casas",
+  "correo": "Eli_Casas@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "16",
+  "nombre": "Guillermo Borrego",
+  "correo": "Guillermo_Borrego@gmail.com",
+  "id_curso": 1
+ },
+ {
+  "id_alumnos": "17",
+  "nombre": "Sergio Aguirre",
+  "correo": "Sergio_Aguirre@gmail.com",
+  "id_curso": 1
+ },
+ {
+  "id_alumnos": "18",
+  "nombre": "Carlito Carrión",
+  "correo": "Carlito_Carrión@gmail.com",
+  "id_curso": 1
+ },
+ {
+  "id_alumnos": "19",
+  "nombre": "Haydée Figueroa",
+  "correo": "Haydée_Figueroa@gmail.com",
+  "id_curso": 1
+ },
+ {
+  "id_alumnos": "20",
+  "nombre": "Chita Mancebo",
+  "correo": "Chita_Mancebo@gmail.com",
+  "id_curso": 1
+ },
+ {
+  "id_alumnos": "21",
+  "nombre": "Joaquina Asensio",
+  "correo": "Joaquina_Asensio@gmail.com",
+  "id_curso": 1
+ },
+ {
+  "id_alumnos": "22",
+  "nombre": "Cristian Sarabia",
+  "correo": "Cristian_Sarabia@gmail.com",
+  "id_curso": 1
+ },
+ {
+  "id_alumnos": "36",
+  "nombre": "Luis Miguel Galvez",
+  "correo": "Luis_Miguel_Galvez@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "37",
+  "nombre": "Loida Arellano",
+  "correo": "Loida_Arellano@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "38",
+  "nombre": "Heraclio Duque",
+  "correo": "Heraclio_Duque@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "39",
+  "nombre": "Herberto Figueras",
+  "correo": "Herberto_Figueras@gmail.com",
+  "id_curso": 0
+ },
+ {
+  "id_alumnos": "40",
+  "nombre": "Teresa Laguna",
+  "correo": "Teresa_Laguna@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "41",
+  "nombre": "Estrella Murillo",
+  "correo": "Estrella_Murillo@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "42",
+  "nombre": "Ernesto Uriarte",
+  "correo": "Ernesto_Uriarte@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "43",
+  "nombre": "Daniela Guitart",
+  "correo": "Daniela_Guitart@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "44",
+  "nombre": "Timoteo Trillo",
+  "correo": "Timoteo_Trillo@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "45",
+  "nombre": "Ricarda Tovar",
+  "correo": "Ricarda_Tovar@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "46",
+  "nombre": "Alejandra Vilaplana",
+  "correo": "Alejandra_Vilaplana@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "47",
+  "nombre": "Daniel Rosselló",
+  "correo": "Daniel_Rosselló@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "48",
+  "nombre": "Rita Olivares",
+  "correo": "Rita_Olivares@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "49",
+  "nombre": "Cleto Montes",
+  "correo": "Cleto_Montes@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "50",
+  "nombre": "Marino Castilla",
+  "correo": "Marino_Castilla@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "51",
+  "nombre": "Estefanía Valcárcel",
+  "correo": "Estefanía_Valcárcel@gmail.com",
+  "id_curso": 2
+ },
+ {
+  "id_alumnos": "52",
+  "nombre": "Noemí Vilanova",
+  "correo": "Noemí_Vilanova@gmail.com",
+  "id_curso": 2
+ }
+],
+"evaluacion":[
+ {
+  "id_evaluacion": "0",
+  "id_alumno": 0,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "1",
+  "id_alumno": 1,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "2",
+  "id_alumno": 2,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "3",
+  "id_alumno": 3,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "4",
+  "id_alumno": 4,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "5",
+  "id_alumno": 5,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "6",
+  "id_alumno": 6,
+  "id_proyecto": 0,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "7",
+  "id_alumno": 7,
+  "id_proyecto": 0,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "8",
+  "id_alumno": 8,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "9",
+  "id_alumno": 9,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "10",
+  "id_alumno": 10,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "11",
+  "id_alumno": 11,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "12",
+  "id_alumno": 12,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "13",
+  "id_alumno": 13,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "14",
+  "id_alumno": 15,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "15",
+  "id_alumno": 0,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "16",
+  "id_alumno": 1,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "17",
+  "id_alumno": 2,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "18",
+  "id_alumno": 3,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "19",
+  "id_alumno": 4,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "20",
+  "id_alumno": 5,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "21",
+  "id_alumno": 6,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "22",
+  "id_alumno": 7,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "23",
+  "id_alumno": 8,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "24",
+  "id_alumno": 9,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "25",
+  "id_alumno": 10,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "26",
+  "id_alumno": 11,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "27",
+  "id_alumno": 12,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "28",
+  "id_alumno": 13,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "29",
+  "id_alumno": 15,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "30",
+  "id_alumno": 0,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "31",
+  "id_alumno": 1,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "32",
+  "id_alumno": 2,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "33",
+  "id_alumno": 3,
+  "id_proyecto": 2,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "34",
+  "id_alumno": 4,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "35",
+  "id_alumno": 5,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "36",
+  "id_alumno": 6,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "37",
+  "id_alumno": 7,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "38",
+  "id_alumno": 8,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "39",
+  "id_alumno": 9,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "40",
+  "id_alumno": 10,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "41",
+  "id_alumno": 11,
+  "id_proyecto": 2,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "42",
+  "id_alumno": 12,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "43",
+  "id_alumno": 13,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "44",
+  "id_alumno": 15,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "45",
+  "id_alumno": 0,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "46",
+  "id_alumno": 1,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "47",
+  "id_alumno": 2,
+  "id_proyecto": 3,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "48",
+  "id_alumno": 3,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "49",
+  "id_alumno": 4,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "50",
+  "id_alumno": 5,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "51",
+  "id_alumno": 6,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "52",
+  "id_alumno": 7,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "53",
+  "id_alumno": 8,
+  "id_proyecto": 3,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "54",
+  "id_alumno": 9,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "55",
+  "id_alumno": 10,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "56",
+  "id_alumno": 11,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "57",
+  "id_alumno": 12,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "58",
+  "id_alumno": 13,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "59",
+  "id_alumno": 15,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "60",
+  "id_alumno": 0,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "61",
+  "id_alumno": 1,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "62",
+  "id_alumno": 2,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "63",
+  "id_alumno": 3,
+  "id_proyecto": 4,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "64",
+  "id_alumno": 4,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "65",
+  "id_alumno": 5,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "66",
+  "id_alumno": 6,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "67",
+  "id_alumno": 7,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "68",
+  "id_alumno": 8,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "69",
+  "id_alumno": 9,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "70",
+  "id_alumno": 10,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "71",
+  "id_alumno": 11,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "72",
+  "id_alumno": 12,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "73",
+  "id_alumno": 13,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "74",
+  "id_alumno": 15,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "75",
+  "id_alumno": 16,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "76",
+  "id_alumno": 17,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "77",
+  "id_alumno": 18,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "78",
+  "id_alumno": 19,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "79",
+  "id_alumno": 20,
+  "id_proyecto": 0,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "80",
+  "id_alumno": 21,
+  "id_proyecto": 0,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "81",
+  "id_alumno": 22,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "82",
+  "id_alumno": 23,
+  "id_proyecto": 0,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "83",
+  "id_alumno": 24,
+  "id_proyecto": 0,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "84",
+  "id_alumno": 25,
+  "id_proyecto": 0,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "85",
+  "id_alumno": 16,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "86",
+  "id_alumno": 17,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "87",
+  "id_alumno": 18,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "88",
+  "id_alumno": 19,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "89",
+  "id_alumno": 20,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "90",
+  "id_alumno": 21,
+  "id_proyecto": 1,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "91",
+  "id_alumno": 22,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "92",
+  "id_alumno": 23,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "93",
+  "id_alumno": 24,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "94",
+  "id_alumno": 25,
+  "id_proyecto": 1,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "95",
+  "id_alumno": 16,
+  "id_proyecto": 2,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "96",
+  "id_alumno": 17,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "97",
+  "id_alumno": 18,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "98",
+  "id_alumno": 19,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "99",
+  "id_alumno": 20,
+  "id_proyecto": 2,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "100",
+  "id_alumno": 21,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "101",
+  "id_alumno": 22,
+  "id_proyecto": 2,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "102",
+  "id_alumno": 23,
+  "id_proyecto": 2,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "103",
+  "id_alumno": 24,
+  "id_proyecto": 2,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "104",
+  "id_alumno": 25,
+  "id_proyecto": 2,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "105",
+  "id_alumno": 16,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "106",
+  "id_alumno": 17,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "107",
+  "id_alumno": 18,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "108",
+  "id_alumno": 19,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "109",
+  "id_alumno": 20,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "110",
+  "id_alumno": 21,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "111",
+  "id_alumno": 22,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "112",
+  "id_alumno": 23,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "113",
+  "id_alumno": 24,
+  "id_proyecto": 3,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "114",
+  "id_alumno": 25,
+  "id_proyecto": 3,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "115",
+  "id_alumno": 16,
+  "id_proyecto": 4,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "116",
+  "id_alumno": 17,
+  "id_proyecto": 4,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "117",
+  "id_alumno": 18,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "118",
+  "id_alumno": 19,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "119",
+  "id_alumno": 20,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "120",
+  "id_alumno": 21,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "121",
+  "id_alumno": 22,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "122",
+  "id_alumno": 23,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "123",
+  "id_alumno": 24,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "124",
+  "id_alumno": 25,
+  "id_proyecto": 4,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "125",
+  "id_alumno": 26,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "126",
+  "id_alumno": 27,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "127",
+  "id_alumno": 28,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "128",
+  "id_alumno": 29,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "129",
+  "id_alumno": 30,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "130",
+  "id_alumno": 31,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "131",
+  "id_alumno": 32,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "132",
+  "id_alumno": 33,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "133",
+  "id_alumno": 34,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "134",
+  "id_alumno": 35,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "135",
+  "id_alumno": 36,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "136",
+  "id_alumno": 37,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "137",
+  "id_alumno": 38,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "138",
+  "id_alumno": 39,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "139",
+  "id_alumno": 26,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "140",
+  "id_alumno": 27,
+  "id_proyecto": 7,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "141",
+  "id_alumno": 28,
+  "id_proyecto": 7,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "142",
+  "id_alumno": 29,
+  "id_proyecto": 7,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "143",
+  "id_alumno": 30,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "144",
+  "id_alumno": 31,
+  "id_proyecto": 7,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "145",
+  "id_alumno": 32,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "146",
+  "id_alumno": 33,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "147",
+  "id_alumno": 34,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "148",
+  "id_alumno": 35,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "149",
+  "id_alumno": 36,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "150",
+  "id_alumno": 37,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "151",
+  "id_alumno": 38,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "152",
+  "id_alumno": 39,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "153",
+  "id_alumno": 26,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "154",
+  "id_alumno": 27,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "155",
+  "id_alumno": 28,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "156",
+  "id_alumno": 29,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "157",
+  "id_alumno": 30,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "158",
+  "id_alumno": 31,
+  "id_proyecto": 6,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "159",
+  "id_alumno": 32,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "160",
+  "id_alumno": 33,
+  "id_proyecto": 6,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "161",
+  "id_alumno": 34,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "162",
+  "id_alumno": 35,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "163",
+  "id_alumno": 36,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "164",
+  "id_alumno": 37,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "165",
+  "id_alumno": 38,
+  "id_proyecto": 6,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "166",
+  "id_alumno": 39,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "167",
+  "id_alumno": 26,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "168",
+  "id_alumno": 27,
+  "id_proyecto": 5,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "169",
+  "id_alumno": 28,
+  "id_proyecto": 5,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "170",
+  "id_alumno": 29,
+  "id_proyecto": 5,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "171",
+  "id_alumno": 30,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "172",
+  "id_alumno": 31,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "173",
+  "id_alumno": 32,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "174",
+  "id_alumno": 33,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "175",
+  "id_alumno": 34,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "176",
+  "id_alumno": 35,
+  "id_proyecto": 5,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "177",
+  "id_alumno": 36,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "178",
+  "id_alumno": 37,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "179",
+  "id_alumno": 38,
+  "id_proyecto": 5,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "180",
+  "id_alumno": 39,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "181",
+  "id_alumno": 26,
+  "id_proyecto": 9,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "182",
+  "id_alumno": 27,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "183",
+  "id_alumno": 28,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "184",
+  "id_alumno": 29,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "185",
+  "id_alumno": 30,
+  "id_proyecto": 9,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "186",
+  "id_alumno": 31,
+  "id_proyecto": 9,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "187",
+  "id_alumno": 32,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "188",
+  "id_alumno": 33,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "189",
+  "id_alumno": 34,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "190",
+  "id_alumno": 35,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "191",
+  "id_alumno": 36,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "192",
+  "id_alumno": 37,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "193",
+  "id_alumno": 38,
+  "id_proyecto": 9,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "194",
+  "id_alumno": 39,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "195",
+  "id_alumno": 40,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "196",
+  "id_alumno": 41,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "197",
+  "id_alumno": 42,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "198",
+  "id_alumno": 43,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "199",
+  "id_alumno": 44,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "200",
+  "id_alumno": 45,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "201",
+  "id_alumno": 46,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "202",
+  "id_alumno": 47,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "203",
+  "id_alumno": 48,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "204",
+  "id_alumno": 49,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "205",
+  "id_alumno": 50,
+  "id_proyecto": 8,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "206",
+  "id_alumno": 51,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "207",
+  "id_alumno": 52,
+  "id_proyecto": 8,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "208",
+  "id_alumno": 40,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "209",
+  "id_alumno": 41,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "210",
+  "id_alumno": 42,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "211",
+  "id_alumno": 43,
+  "id_proyecto": 7,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "212",
+  "id_alumno": 44,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "213",
+  "id_alumno": 45,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "214",
+  "id_alumno": 46,
+  "id_proyecto": 7,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "215",
+  "id_alumno": 47,
+  "id_proyecto": 7,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "216",
+  "id_alumno": 48,
+  "id_proyecto": 7,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "217",
+  "id_alumno": 49,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "218",
+  "id_alumno": 50,
+  "id_proyecto": 7,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "219",
+  "id_alumno": 51,
+  "id_proyecto": 7,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "220",
+  "id_alumno": 52,
+  "id_proyecto": 7,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "221",
+  "id_alumno": 40,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "222",
+  "id_alumno": 41,
+  "id_proyecto": 6,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "223",
+  "id_alumno": 42,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "224",
+  "id_alumno": 43,
+  "id_proyecto": 6,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "225",
+  "id_alumno": 44,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "226",
+  "id_alumno": 45,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "227",
+  "id_alumno": 46,
+  "id_proyecto": 6,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "228",
+  "id_alumno": 47,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "229",
+  "id_alumno": 48,
+  "id_proyecto": 6,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "230",
+  "id_alumno": 49,
+  "id_proyecto": 6,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "231",
+  "id_alumno": 50,
+  "id_proyecto": 6,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "232",
+  "id_alumno": 51,
+  "id_proyecto": 6,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "233",
+  "id_alumno": 52,
+  "id_proyecto": 6,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "234",
+  "id_alumno": 40,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "235",
+  "id_alumno": 41,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "236",
+  "id_alumno": 42,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "237",
+  "id_alumno": 43,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "238",
+  "id_alumno": 44,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "239",
+  "id_alumno": 45,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "240",
+  "id_alumno": 46,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "241",
+  "id_alumno": 47,
+  "id_proyecto": 5,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "242",
+  "id_alumno": 48,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "243",
+  "id_alumno": 49,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "244",
+  "id_alumno": 50,
+  "id_proyecto": 5,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "245",
+  "id_alumno": 51,
+  "id_proyecto": 5,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "246",
+  "id_alumno": 52,
+  "id_proyecto": 5,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "247",
+  "id_alumno": 40,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "248",
+  "id_alumno": 41,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "249",
+  "id_alumno": 42,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "250",
+  "id_alumno": 43,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "251",
+  "id_alumno": 44,
+  "id_proyecto": 9,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "252",
+  "id_alumno": 45,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "253",
+  "id_alumno": 46,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "254",
+  "id_alumno": 47,
+  "id_proyecto": 9,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "255",
+  "id_alumno": 48,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "256",
+  "id_alumno": 49,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "257",
+  "id_alumno": 50,
+  "id_proyecto": 9,
+  "nota": "No Apto"
+ },
+ {
+  "id_evaluacion": "258",
+  "id_alumno": 51,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ },
+ {
+  "id_evaluacion": "259",
+  "id_alumno": 52,
+  "id_proyecto": 9,
+  "nota": "Apto"
+ }
+]
+}
