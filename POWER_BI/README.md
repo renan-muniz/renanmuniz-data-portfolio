@@ -69,7 +69,7 @@ This dashboard reveals that:
 ### ⚙️ Tools Used
 - **Power BI Desktop**
 - **DAX & Power Query**
-- **Kaggle Dataset**: [Marketing Campaign Dataset](https://www.kaggle.com/datasets)
+- **Kaggle Dataset**: [Marketing Campaign Dataset](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign)
 
 ---
 
@@ -82,5 +82,5 @@ This dashboard reveals that:
 
 ### 👨‍💻 Author
 **Renan Muniz**  
-📧 renan.muniz@email.com  
-💼 [LinkedIn Profile](https://www.linkedin.com/in/seu-perfil)
+📧 luregat@gmail.com 
+💼 [LinkedIn Profile](https://www.linkedin.com/in/renan-muniz1310)
