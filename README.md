@@ -75,6 +75,13 @@ Includes **E/R modeling**, normalization, and **PostgreSQL** implementation with
 
 ---
 
+
+### 📊 Marketing & Customer Performance Dashboard (Power BI)  
+Interactive dashboard built in **Power BI** to analyze marketing campaign results and customer behavior using a real Kaggle dataset.  
+Includes key KPIs, segmentation by demographics, and actionable insights to improve marketing strategy.  
+**Tech:** Power BI, DAX, Power Query, Excel, Kaggle Dataset  
+
+---
 ## 📫 Contact  
 📧 **[luregat@gmail.com](mailto:luregat@gmail.com)**  
 🌐 [linkedin.com/in/renan-muniz1310](https://linkedin.com/in/renan-muniz1310)  
