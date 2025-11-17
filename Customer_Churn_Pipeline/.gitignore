@@ -7,8 +7,6 @@ data/
 # Modelos salvos
 models/
 
-# Bancos de dados locais
-*.db
 
 # Arquivos de ambiente (.env com senhas/chaves)
 *.env
