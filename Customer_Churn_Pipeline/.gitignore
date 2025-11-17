@@ -1,0 +1,25 @@
+# Ambientes virtuais
+venv/
+
+# Dados locais (não versionar datasets)
+data/
+
+# Modelos salvos
+models/
+
+# Bancos de dados locais
+*.db
+
+# Arquivos de ambiente (.env com senhas/chaves)
+*.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Checkpoints de notebooks Jupyter
+.ipynb_checkpoints/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
