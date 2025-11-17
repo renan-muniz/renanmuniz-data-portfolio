@@ -127,7 +127,7 @@ with tab3:
             data_api[col] = st.text_input(label= col)
         elif col == "SeniorCitizen":
             data_api[col] = st.selectbox(label= col, options= df_holdout_3[col].unique())
-        elif df_holdout[col].dtype == object:
+        elif df_holdout_3[col].dtype == object:
             data_api[col] = st.selectbox(label= col, options= df_holdout_3[col].unique())
         else:
             data_api[col] = st.number_input(label=col)
