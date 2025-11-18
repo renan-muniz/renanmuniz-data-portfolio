@@ -1,11 +1,7 @@
 # Ambientes virtuais
 venv/
 
-# Dados locais (não versionar datasets)
-data/
 
-# Modelos salvos
-models/
 
 
 # Arquivos de ambiente (.env com senhas/chaves)
