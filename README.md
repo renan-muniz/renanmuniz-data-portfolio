@@ -82,6 +82,15 @@ Includes key KPIs, segmentation by demographics, and actionable insights to impr
 **Tech:** Power BI, DAX, Power Query, Excel, Kaggle Dataset  
 
 ---
+### 📉 Customer Churn Prediction – End-to-End ML Pipeline
+
+Machine Learning pipeline built to predict customer churn for a telecom company.
+Includes complete workflow: ETL, model training, evaluation, API deployment, and an interactive dashboard.
+Features a production-ready Flask API and a Streamlit app consuming real-time predictions from the hosted model.
+
+**Tech**: Python, XGBoost, Scikit-learn, Flask, Streamlit, Pandas, Render, Streamlit Cloud
+
+---
 ## 📫 Contact  
 📧 **[luregat@gmail.com](mailto:luregat@gmail.com)**  
 🌐 [linkedin.com/in/renan-muniz1310](https://linkedin.com/in/renan-muniz1310)  
