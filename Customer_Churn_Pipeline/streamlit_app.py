@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 import json
 from pathlib import Path
-
+import pickle
 
 
 
@@ -14,15 +14,18 @@ df_holdout = pd.read_csv(path)
 with open("models/metrics_holdout.json", "r") as m:
     metrics = json.load(m)
     
-
+with open("models/xgb_churn.pkl", "rb") as mod:
+    model = pickle.load(mod)
     
+with open("models/feature_columns.pkl", "rb") as f:
+    feature_col = pickle.load(f)
     
 url = "http://127.0.0.1:5000/predict" 
 
 
 st.set_page_config(page_title="Churn Dashboard", layout="wide")
 
-tab1, tab2, tab3 = st.tabs(['Overview', 'Test Client', 'Manual'])
+tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Test Client', 'Manual', 'Ovewrview'])
 
 with tab1:
     st.header("Model Overview")
@@ -52,17 +55,32 @@ with tab1:
     
     with col6:
         st.metric(label="Threshold", value=metrics['threshold'])
-        
+    
+    
+    
+    col7, col8, col9 = st.columns(3)
+    
+       
     st.subheader("Churn Rate(Holdout)")
     st.bar_chart(df_holdout['Churn'].value_counts(normalize=True))
+
+    with col7:
+        st.subheader("Churn by Contract Type")
+        
+        df_holdout['Churn_num'] = df_holdout['Churn'].map({'No': 0, "Yes": 1})
+        contract_df = df_holdout.groupby(['Contract'])['Churn_num'].mean()
+        st.bar_chart(contract_df,  sort='-Churn_num')
     
-    st.subheader("Churn by Contract Type")
-    
-    df_holdout['Churn_num'] = df_holdout['Churn'].map({'No': 0, "Yes": 1})
-    contract_df = df_holdout.groupby(['Contract'])['Churn_num'].mean()
-    st.bar_chart(contract_df)
-    
-    
+    with col8:
+        st.subheader("Churn by Internet Service")
+        internet_serv = df_holdout.groupby(['InternetService'])['Churn_num'].mean()
+        st.bar_chart(internet_serv,  sort='-Churn_num')
+        
+    with col9:
+        st.subheader("Churn by Payment Method")
+        payment_meth = df_holdout.groupby(['PaymentMethod'])['Churn_num'].mean()
+        st.bar_chart(payment_meth, sort='-Churn_num')
+        
 with tab2:
     st.header("Test Client")
     
@@ -122,16 +140,48 @@ with tab3:
     
     data_api = {}
     df_holdout_3 = df_holdout.drop(columns=['Churn', 'Churn_num', 'customerID'])
-    for col in df_holdout_3.columns:
-        if col == "TotalCharges":
-            data_api[col] = st.text_input(label= col)
-        elif col == "SeniorCitizen":
-            data_api[col] = st.selectbox(label= col, options= df_holdout_3[col].unique())
-        elif df_holdout_3[col].dtype == object:
-            data_api[col] = st.selectbox(label= col, options= df_holdout_3[col].unique())
-        else:
-            data_api[col] = st.number_input(label=col)
+    
+
+    
+    nice_labels = {
+        "gender": 'Gender',
+        "SeniorCitizen": 'Senior Citizen',
+        "Partner": 'Partner',
+        "Dependents": 'Dependents',
+        "tenure": 'Tenure',
+        "PhoneService": 'Phone Service', 
+        "MultipleLines": 'Multiple Lines',
+        "InternetService": 'Internet Service',
+        "OnlineSecurity": 'Online Security',
+        "OnlineBackup": 'Online Backup',        
+        "DeviceProtection": 'Device Protection',
+        "TechSupport": 'Tech Support',
+        "StreamingTV":  'Streaming TV',
+        "StreamingMovies": 'Streaming Movies', 
+        "Contract": 'Contract',
+        "PaperlessBilling": 'Paperless Billing',
+        "PaymentMethod": 'Payment Method',
+        "MonthlyCharges": 'Monthly Charges',
+        "TotalCharges": 'Total Charges'
+    }
+    
+    
+    col1, col2, col3 = st.columns(3)
+    columns = [col1, col2, col3]
+    for i, col in enumerate(df_holdout_3.columns):
         
+        column_atual = columns[i % 3]
+        
+        with column_atual:
+            if col == "TotalCharges":
+                data_api[col] = st.text_input(label= nice_labels.get(col, col))
+            elif col == "SeniorCitizen":
+                data_api[col] = st.selectbox(label= nice_labels.get(col, col), options= df_holdout_3[col].unique())
+            elif df_holdout_3[col].dtype == object:
+                data_api[col] = st.selectbox(label= nice_labels.get(col, col), options= df_holdout_3[col].unique())
+            else:
+                data_api[col] = st.number_input(label=nice_labels.get(col, col))
+            
     if st.button("Prediction"):
         response = requests.post(url, json=data_api)
         data_2 = response.json()
@@ -150,59 +200,23 @@ with tab3:
         
         st.write("Churn Threshold: ", threshold )
             
-a = """
 
-    gender = st.selectbox(label="Gender", options= df_holdout['gender'].unique())
-    senior_citizen = st.selectbox(label="Senior Citizen (1 = Yes, 0 = No)", options= df_holdout['SeniorCitizen'].unique())
-    partner = st.selectbox(label="Partner", options= df_holdout['Partner'].unique())
-    dependents = st.selectbox(label="Dependents", options= df_holdout['Dependents'].unique())
     
+with tab4:
+    st.header("Feature Importance Columns.")
     
-    tenure = st.number_input(label="Write tenure")
-    
-    phone_service = st.selectbox(label="Phone Service", options= df_holdout['PhoneService'].unique())
-    multiple_lines = st.selectbox(label="Multiple Lines", options= df_holdout['MultipleLines'].unique())
-    internet_service = st.selectbox(label="Internet Service", options= df_holdout['InternetService'].unique())
-    online_security = st.selectbox(label="Online Security", options= df_holdout['OnlineSecurity'].unique())
-    online_backup = st.selectbox(label="Online Backup", options= df_holdout['OnlineBackup'].unique())
-    device_protection = st.selectbox(label="Device Protection", options= df_holdout['DeviceProtection'].unique())
-    tech_support = st.selectbox(label="Tech Support", options= df_holdout['TechSupport'].unique())
-    streaming_TV = st.selectbox(label="Streaming TV", options= df_holdout['StreamingTV'].unique())
-    streaming_movies = st.selectbox(label="Streaming Movies", options= df_holdout['StreamingMovies'].unique())
-    contract = st.selectbox(label="Contract", options= df_holdout['Contract'].unique())
-    paperless_billing = st.selectbox(label="Paperless Billing", options= df_holdout['PaperlessBilling'].unique())
-    payment_method = st.selectbox(label="Payment Method", options= df_holdout['PaymentMethod'].unique())
-    
-    
-    monthly_charges = st.number_input(label="Write Monthly Charges")
-    total_charges = st.number_input(label="Write Total Charges")
-     
-    
-    data_api = {
-        "gender": gender,
-        "SeniorCitizen": senior_citizen,
-        "Partner": partner,
-        "Dependents": dependents,
-        "tenure": tenure,
-        "PhoneService": phone_service, 
-        "MultipleLines": multiple_lines,
-        "InternetService": internet_service,
-        "OnlineSecurity": online_security,
-        "OnlineBackup": online_backup,        
-        "DeviceProtection": device_protection,
-        "TechSupport": tech_support,
-        "StreamingTV":  streaming_TV,
-        "StreamingMovies": streaming_movies, 
-        "Contract": contract,
-        "PaperlessBilling": paperless_billing,
-        "PaymentMethod": payment_method,
-        "MonthlyCharges": monthly_charges,
-        "TotalCharges": total_charges
-    }
+    feature_df = pd.DataFrame(feature_col, columns=['Features'])
+    importance = pd.DataFrame(model.feature_importances_, columns=['Importance'])
+    feature_importance = pd.concat([feature_df, importance], axis=1)
+    feature_importance = feature_importance.sort_values(by='Importance', ascending=False).reset_index()
     
     
     
-    """
+    col1, col2 = st.columns(2)
     
+    with col1:
+        st.write(feature_importance)
+    with col2:
+        st.bar_chart(feature_importance.iloc[:20],x='Features',  y = 'Importance', sort='-Importance', horizontal=True)
     
     
