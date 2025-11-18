@@ -7,7 +7,6 @@ import pickle
 
 
 
-
 path = Path("data/test_holdout.csv")
 df_holdout = pd.read_csv(path)
 
@@ -80,6 +79,7 @@ with tab1:
         st.subheader("Churn by Payment Method")
         payment_meth = df_holdout.groupby(['PaymentMethod'])['Churn_num'].mean()
         st.bar_chart(payment_meth, sort='-Churn_num')
+        
         
 with tab2:
     st.header("Test Client")

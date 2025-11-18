@@ -5,6 +5,7 @@ xgboost
 sqlalchemy
 flask
 streamlit
-shap
 joblib
 python-dotenv
+gunicorn
+
