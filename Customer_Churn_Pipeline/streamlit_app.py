@@ -203,7 +203,7 @@ with tab3:
 
     
 with tab4:
-    st.header("Feature Importance Columns.")
+    st.header("Feature Importance Columns")
     
     feature_df = pd.DataFrame(feature_col, columns=['Features'])
     importance = pd.DataFrame(model.feature_importances_, columns=['Importance'])
