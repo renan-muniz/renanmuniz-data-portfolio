@@ -91,6 +91,14 @@ Features a production-ready Flask API and a Streamlit app consuming real-time pr
 **Tech**: Python, XGBoost, Scikit-learn, Flask, Streamlit, Pandas, Render, Streamlit Cloud
 
 ---
+### 🧠 Psychological Well-Being Dashboard (Power BI)
+
+Interactive dashboard analyzing emotional and behavioral well-being indicators such as stress, mood, anxiety, sleep quality, and life satisfaction.
+Includes KPIs, demographic segmentation, heatmaps, age-group insights, and lifestyle correlations (e.g., physical activity vs stress). Designed with a clean UI, storytelling approach, and professional layout best-practices.
+
+**Tech**: Power BI, DAX, Power Query, Data Modeling, Data Visualization, UX for BI
+
+---
 ## 📫 Contact  
 📧 **[luregat@gmail.com](mailto:luregat@gmail.com)**  
 🌐 [linkedin.com/in/renan-muniz1310](https://linkedin.com/in/renan-muniz1310)  
