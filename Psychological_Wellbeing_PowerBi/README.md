@@ -39,7 +39,8 @@ The dashboard provides:
 ---
 
 ## 📁 Files Included
-- `Psychology_PowerBI.pbix` — Power BI source file  
+- `Psychology_PowerBI.pbix` — Power BI source file
+- `Psychology_PowerBI.pdf` — Power BI pdf
 - `screenshots/` — Dashboard preview images
 - `data/` - Data used in the project
 - `README.md` — Project documentation  
